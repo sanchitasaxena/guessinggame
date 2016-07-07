@@ -26,5 +26,10 @@ try: #initiate assessment: is this an integer?
 except NameError:
     print("Do you even know what an integer is?!")
 
-    
-print "Good Job!" #the numbers are equal: no while loop
+redo = raw_input("Good Job! Would you like to play again? (Y or N)")
+    if redo == "Y":
+        #play again
+    else:
+        "You suck!"
+
+ 
